@@ -3,13 +3,25 @@
     <title>Codurance</title>
     <link href="/atom.xml" rel="self"/>
     <link href=""/>
-    <updated>2016-06-06T20:41:15+00:00</updated>
+    <updated>2016-06-07T14:33:52+00:00</updated>
     <id>http://codurance.com</id>
     <author>
         <name>Codurance</name>
         <email>hello@codurance.com</email>
     </author>
     <rights>Copyright (c) Codurance</rights>
+    
+    <entry>
+        <id>/2016/06/07/why-socrates-uk-is-not-just-a-conference-for-software-craftsmen/</id>
+        <title>Why SoCraTes UK is not just a conference for Software Craftsmen.</title>
+        <link href="http://codurance.com/2016/06/07/why-socrates-uk-is-not-just-a-conference-for-software-craftsmen/"/>
+        <published>2016-06-07T15:20:00+00:00</published>
+        
+        <summary type="html">&lt;p&gt;Last Friday, I attended the international &lt;a href=&quot;http://socratesuk.org/index.html&quot;&gt;Software Craftsmanship and Testing conference&lt;/a&gt; at the enchanting Wotton House, in Dorking. I was the only Designer among about 100 Developers.&lt;/p&gt;
+
+</summary>
+        
+    </entry>
     
     <entry>
         <id>/2016/05/25/coordination-in-akka/</id>
@@ -174,18 +186,6 @@
         <published>2016-04-17T00:20:00+00:00</published>
         
         <summary type="html">&lt;p&gt;Cassandra is a fantastic database for different use cases. There are different situations when you need to twist Cassandra a little and studying one of those could be a helpful exercise to better understand what is Cassandra about. Databases are complex beasts, approaching them with the right level of abstraction is vital. Their final goal is not storing data per se, but make that data accessible. Those read patterns will define which database is the best tool for the job.&lt;/p&gt;
-
-</summary>
-        
-    </entry>
-    
-    <entry>
-        <id>/2016/04/12/we-did-it-wrong-but-not-in-vain/</id>
-        <title>We did it wrong, but not all was in vain</title>
-        <link href="http://codurance.com/2016/04/12/we-did-it-wrong-but-not-in-vain/"/>
-        <published>2016-04-12T00:24:00+00:00</published>
-        
-        <summary type="html">&lt;p&gt;Yes, there was over engineering. Loads of it. Back in the mid 90s, when I started my career as a developer, the goal was to become an architect. No serious developer would dare writing a single line of code before selecting our preferred design patterns—we would then decide how the business requirements would fit into them. Yes, we would first come up with our architecture, then our macro design (layers) and domain model (including UML diagrams), and then we would think about the business requirements and detailed use cases. Yes, user stories were not really a thing back then. We had long use cases with a basic flow and many alternative flows.&lt;/p&gt;
 
 </summary>
         
