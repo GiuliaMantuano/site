@@ -3,7 +3,7 @@
     <title>Codurance</title>
     <link href="/atom.xml" rel="self"/>
     <link href=""/>
-    <updated>2016-06-09T11:17:51+00:00</updated>
+    <updated>2016-06-09T15:28:53+00:00</updated>
     <id>http://codurance.com</id>
     <author>
         <name>Codurance</name>
@@ -18,6 +18,18 @@
         <published>2016-06-07T15:20:00+00:00</published>
         
         <summary type="html">&lt;p&gt;Last Friday, I attended the international &lt;a href=&quot;http://socratesuk.org/index.html&quot;&gt;Software Craftsmanship and Testing conference&lt;/a&gt; at the enchanting Wotton House, in Dorking. I was the only Designer among about 100 Developers.&lt;/p&gt;
+
+</summary>
+        
+    </entry>
+    
+    <entry>
+        <id>/2016/05/31/unit-vs-integration-akka-testing/</id>
+        <title>Unit vs Integration Akka Testing</title>
+        <link href="http://codurance.com/2016/05/31/unit-vs-integration-akka-testing/"/>
+        <published>2016-05-31T00:20:00+00:00</published>
+        
+        <summary type="html">&lt;p&gt;This is the sixth post in the series about integrating sync clients with async systems (&lt;a href=&quot;http://codurance.com/2016/04/28/async-systems-with-sync-clients/&quot;&gt;1, &lt;/a&gt;&lt;a href=&quot;http://codurance.com/2016/04/30/akka-basics/&quot;&gt;2, &lt;/a&gt;&lt;a href=&quot;http://codurance.com/2016/05/10/finite-state-machines-with-akka/&quot;&gt;3, &lt;/a&gt;&lt;a href=&quot;http://codurance.com/2016/05/16/publish-subscribe-model-in-kafka/&quot;&gt;4, &lt;/a&gt;&lt;a href=&quot;http://codurance.com/2016/05/16/coordination-in-akka/&quot;&gt;5&lt;/a&gt;). Here we&#39;ll see how to test &lt;a href=&quot;http://doc.akka.io/docs/akka/current/scala/actors.html&quot;&gt;Akka actors&lt;/a&gt; with different testing styles.&lt;/p&gt;
 
 </summary>
         
@@ -174,18 +186,6 @@
         <published>2016-04-28T00:20:00+00:00</published>
         
         <summary type="html">&lt;p&gt;As the &lt;a href=&quot;http://www.reactivemanifesto.org/&quot;&gt;Reactive Manifesto&lt;/a&gt; says Reactive systems are:&lt;/p&gt;
-
-</summary>
-        
-    </entry>
-    
-    <entry>
-        <id>/2016/04/17/sorted-pagination-in-cassandra/</id>
-        <title>Sorted pagination in Cassandra</title>
-        <link href="http://codurance.com/2016/04/17/sorted-pagination-in-cassandra/"/>
-        <published>2016-04-17T00:20:00+00:00</published>
-        
-        <summary type="html">&lt;p&gt;Cassandra is a fantastic database for different use cases. There are different situations when you need to twist Cassandra a little and studying one of those could be a helpful exercise to better understand what is Cassandra about. Databases are complex beasts, approaching them with the right level of abstraction is vital. Their final goal is not storing data per se, but make that data accessible. Those read patterns will define which database is the best tool for the job.&lt;/p&gt;
 
 </summary>
         
