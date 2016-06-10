@@ -3,13 +3,25 @@
     <title>Codurance</title>
     <link href="/atom.xml" rel="self"/>
     <link href=""/>
-    <updated>2016-06-10T09:31:27+00:00</updated>
+    <updated>2016-06-10T12:06:48+00:00</updated>
     <id>http://codurance.com</id>
     <author>
         <name>Codurance</name>
         <email>hello@codurance.com</email>
     </author>
     <rights>Copyright (c) Codurance</rights>
+    
+    <entry>
+        <id>/2016/06/09/configuring-aws-for-lambda/</id>
+        <title>Configuring Amazon Web Services (AWS) for using Lambda</title>
+        <link href="http://codurance.com/2016/06/09/configuring-aws-for-lambda/"/>
+        <published>2016-06-09T15:07:00+00:00</published>
+        
+        <summary type="html">&lt;p&gt;During the  &lt;a href=&quot;http://socratesuk.org/index.html&quot;&gt;Software Craftsmanship and Testing conference UK&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mashooq&quot;&gt;Mash&lt;/a&gt; run a session on &lt;a href=&quot;https://aws.amazon.com/lambda/details/&quot;&gt;AWS Lambda&lt;/a&gt;, with examples written in Java and python. Some other people also tried to do it in NodeJS. This session is &lt;a href=&quot;/2016/05/11/aws-lambdas&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+</summary>
+        
+    </entry>
     
     <entry>
         <id>/2016/06/07/why-socrates-uk-is-not-just-a-conference-for-software-craftsmen/</id>
@@ -174,18 +186,6 @@
         <published>2016-04-30T00:20:00+00:00</published>
         
         <summary type="html">&lt;p&gt;As &lt;a href=&quot;http://codurance.com/2016/04/28/async-systems-with-sync-clients&quot;&gt;the previous post&lt;/a&gt; explained our system is based on &lt;a href=&quot;http://akka.io/&quot;&gt;Akka&lt;/a&gt;. Before going into more detail about our solution, I&#39;d like to explain what Akka is about and why it is so awesome.&lt;/p&gt;
-
-</summary>
-        
-    </entry>
-    
-    <entry>
-        <id>/2016/04/28/async-systems-with-sync-clients/</id>
-        <title>Async systems with sync clients</title>
-        <link href="http://codurance.com/2016/04/28/async-systems-with-sync-clients/"/>
-        <published>2016-04-28T00:20:00+00:00</published>
-        
-        <summary type="html">&lt;p&gt;As the &lt;a href=&quot;http://www.reactivemanifesto.org/&quot;&gt;Reactive Manifesto&lt;/a&gt; says Reactive systems are:&lt;/p&gt;
 
 </summary>
         
