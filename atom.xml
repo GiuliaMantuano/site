@@ -3,13 +3,25 @@
     <title>Codurance</title>
     <link href="/atom.xml" rel="self"/>
     <link href=""/>
-    <updated>2016-06-14T11:55:54+00:00</updated>
+    <updated>2016-06-18T12:36:11+00:00</updated>
     <id>http://codurance.com</id>
     <author>
         <name>Codurance</name>
         <email>hello@codurance.com</email>
     </author>
     <rights>Copyright (c) Codurance</rights>
+    
+    <entry>
+        <id>/2016/06/17/thinking-in-abstractions/</id>
+        <title>Thinking in Abstractions</title>
+        <link href="http://codurance.com/2016/06/17/thinking-in-abstractions/"/>
+        <published>2016-06-17T00:20:00+00:00</published>
+        
+        <summary type="html">&lt;p&gt;Recent issues of the &lt;a href=&quot;http://www.clojuregazette.com/archive.html&quot;&gt;Clojure Gazette&lt;/a&gt; have been discussing abstractions, and it&#39;s got me thinking.&lt;/p&gt;
+
+</summary>
+        
+    </entry>
     
     <entry>
         <id>/2016/06/14/mastering-TDD/</id>
@@ -175,18 +187,6 @@ I saw myself in front of the computer, with all those links to follow and read, 
         <published>2016-05-07T12:10:00+00:00</published>
         
         <summary type="html">&lt;p&gt;In the last post, &lt;a href=&quot;http://codurance.com/2016/03/17/code-smells-part-I/&quot;&gt;Code Smells - Part I&lt;/a&gt;,  I talked about the bloaters: they are code smells that can be identified as Long Methods, Large Classes, Primitive Obsessions, Long Parameter List and Data Clumps. In this one, I would like to dig into the &lt;strong&gt;Object-Orientation Abusers&lt;/strong&gt; and the &lt;strong&gt;Change Preventers&lt;/strong&gt;.&lt;/p&gt;
-
-</summary>
-        
-    </entry>
-    
-    <entry>
-        <id>/2016/05/06/language-feature-envy/</id>
-        <title>Language feature envy</title>
-        <link href="http://codurance.com/2016/05/06/language-feature-envy/"/>
-        <published>2016-05-06T00:20:00+00:00</published>
-        
-        <summary type="html">&lt;p&gt;In my day job I mainly write C# code. On my own I like to try other languages like Swift, F#, Clojure, Objective C or Java. I learn a lot from writing code in different languages. When I go back to C# I often miss some of the features C# does not have. By far what I miss the most is Java/Swift enums. It happens quite frequently that I need to express a few finite number of instances of a type. The &lt;a href=&quot;http://snipplr.com/view/42422/the-planet-enum-example/&quot;&gt;Java planets&lt;/a&gt; example illustrates this quite effectively.&lt;/p&gt;
 
 </summary>
         
