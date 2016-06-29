@@ -3,13 +3,97 @@
     <title>Codurance</title>
     <link href="/atom.xml" rel="self"/>
     <link href=""/>
-    <updated>2016-06-28T10:01:15+00:00</updated>
+    <updated>2016-06-29T08:50:26+00:00</updated>
     <id>http://codurance.com</id>
     <author>
         <name>Codurance</name>
         <email>hello@codurance.com</email>
     </author>
     <rights>Copyright (c) Codurance</rights>
+    
+    <entry>
+        <id>/2016/06/24/scaling-umbraco-on-windows-azure/</id>
+        <title>Scaling an Umbraco Website On Windows Azure</title>
+        <link href="http://codurance.com/2016/06/24/scaling-umbraco-on-windows-azure/"/>
+        <published>2016-06-24T16:20:00+00:00</published>
+        
+        <summary type="html">&lt;p&gt;This is the first post of a three parts series about how to scale an Umbraco website on Windows Azure platform.&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;Part I: Yet another &lt;a href=&quot;https://umbraco.com/&quot;&gt;CMS&lt;/a&gt;&lt;/h3&gt;
+
+
+
+
+&lt;p&gt;Umbraco is “The friendliest open source MVC .Net framework community”, according to &lt;a href=&quot;https://our.umbraco.org/&quot;&gt;the Umbraco team&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;This &lt;a href=&quot;https://github.com/umbraco/Umbraco-CMS&quot;&gt;open source content management system&lt;/a&gt; is built on the .Net MVC infrastructure, it allows developers to work on the business logic with Content and Media API, whilst front-end developers can focus on the rendering, look and feel of the website building views with &lt;a href=&quot;http://www.w3schools.com/aspnet/webpages_razor.asp&quot;&gt;Razor markup&lt;/a&gt; and custom CSS.
+Looking for an architecture representation of the Umbraco CMS, I have luckily found this diagram &lt;a href=&quot;https://twitter.com/paulsterling/status/357223564019118080&quot;&gt;tweeted&lt;/a&gt; by Paul Sterling.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/custom/blog/2016-06-20-umbraco-on-azure/01.png&quot;  alt=&quot;&quot; title=&quot;&quot; class=&quot;img img-center img-responsive style-screengrab&quot;&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;Modular and flexible, but not as blogger friendly as WordPress&lt;/h3&gt;
+
+
+
+
+&lt;p&gt;It is very easy with Umbraco to build simple websites with custom objects and link them together, without writing any line of code. One can spin document types and add child document types in minutes.
+Here is a simple diagram from @mcDark &lt;a href=&quot;http://www.theoutfield.co.uk/blog/2011/04/anatomy-of-an-umbraco-document&quot;&gt;blog post&lt;/a&gt; that explains how document types are structured.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/custom/blog/2016-06-20-umbraco-on-azure/02.png&quot;  alt=&quot;&quot; title=&quot;&quot; class=&quot;img img-center img-responsive style-screengrab&quot;&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;A Document Type in Umbraco is a concept that holds business logic, it is where one configure the properties one will need to store data. It can have a UI representation that is called a Template.
+A Template is where the layout of how the data is displayed will be specified using HTML, Razor and CSS.
+Blogging is not out of the box in Umbraco. There are however plugins that are called packages, to add blog functionality to Umbraco.
+&lt;a href=&quot;https://our.umbraco.org/projects/starter-kits/articulate&quot;&gt;Articulate&lt;/a&gt; is the default blog package that comes installed with the starter kit.
+It gives a good basic features sets to get starting blogging, however it does not provide some fundamental blog capabilities such as categories which need to be implemented using document types and require some workaround in the template.&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;Powerful indexing and built-in search capability&lt;/h3&gt;
+
+
+
+
+&lt;p&gt;Umbraco integrates &lt;a href=&quot;https://github.com/Shazwazza/Examine&quot;&gt;Examine&lt;/a&gt;, an indexing and search engine with two indexes already set up for internal search, helping you find your content on the admin of the website.
+To improve usability of your website and help your visitors find your content, you can &lt;a href=&quot;https://our.umbraco.org/documentation/reference/searching/examine/quick-start&quot;&gt;build your own indexes&lt;/a&gt; and search functionality.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;In this part we have been introduced to Umbraco, next we will see how easy it is to install and get up and running hosting our website on Windows Azure.&lt;/p&gt;
+
+</summary>
+        
+    </entry>
     
     <entry>
         <id>/2016/06/17/thinking-in-abstractions/</id>
@@ -175,18 +259,6 @@ I saw myself in front of the computer, with all those links to follow and read, 
         <published>2016-05-10T00:20:00+00:00</published>
         
         <summary type="html">&lt;p&gt;As you could remember from previous posts, &lt;a href=&quot;http://codurance.com/2016/04/28/async-systems-with-sync-clients/&quot;&gt;Part 1&lt;/a&gt; and   &lt;a href=&quot;http://codurance.com/2016/04/30/akka-basics/&quot;&gt;Part 2&lt;/a&gt;, we&#39;re implementing a solution that integrates a sync client with an async system. Today we&#39;ll see how to keep track of the async operations so we can provide a sync response to the client. Let&#39;s start with the architectural diagram.&lt;/p&gt;
-
-</summary>
-        
-    </entry>
-    
-    <entry>
-        <id>/2016/05/07/code-smells-part-II/</id>
-        <title>Code Smells – Part II</title>
-        <link href="http://codurance.com/2016/05/07/code-smells-part-II/"/>
-        <published>2016-05-07T12:10:00+00:00</published>
-        
-        <summary type="html">&lt;p&gt;In the last post, &lt;a href=&quot;http://codurance.com/2016/03/17/code-smells-part-I/&quot;&gt;Code Smells - Part I&lt;/a&gt;,  I talked about the bloaters: they are code smells that can be identified as Long Methods, Large Classes, Primitive Obsessions, Long Parameter List and Data Clumps. In this one, I would like to dig into the &lt;strong&gt;Object-Orientation Abusers&lt;/strong&gt; and the &lt;strong&gt;Change Preventers&lt;/strong&gt;.&lt;/p&gt;
 
 </summary>
         
