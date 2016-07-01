@@ -3,7 +3,7 @@
     <title>Codurance</title>
     <link href="/atom.xml" rel="self"/>
     <link href=""/>
-    <updated>2016-07-01T14:45:47+00:00</updated>
+    <updated>2016-07-01T15:20:02+00:00</updated>
     <id>http://codurance.com</id>
     <author>
         <name>Codurance</name>
@@ -96,9 +96,9 @@ To improve usability of your website and help your visitors find your content, y
     </entry>
     
     <entry>
-        <id>/2016/06/22/Single-Responsibility-Principle/</id>
+        <id>/software-crafstmanship/2016/06/22/Single-Responsibility-Principle/</id>
         <title>Some Thoughts on the Single Responsibility Principle</title>
-        <link href="http://codurance.com/2016/06/22/Single-Responsibility-Principle/"/>
+        <link href="http://codurance.com/software-crafstmanship/2016/06/22/Single-Responsibility-Principle/"/>
         <published>2016-06-22T10:00:00+00:00</published>
         
         <summary type="html">&lt;p&gt;&lt;a href=&quot;http://bit.ly/1Da1b16&quot;&gt;SOLID&lt;/a&gt; (single responsibility, open-closed, Liskov substitution, interface segregation and dependency inversion) is a set of principles popularised by &lt;a href=&quot;https://en.wikipedia.org/wiki/Robert_Cecil_Martin&quot;&gt;‘Uncle’ Bob Martin&lt;/a&gt; that aim to guide developers in implementing good software design. The principles define how Object Oriented classes should relate to each other in order to create a codebase that is flexible and able to accommodate ongoing change.&lt;/p&gt;
