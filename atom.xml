@@ -3,7 +3,7 @@
     <title>Codurance</title>
     <link href="/atom.xml" rel="self"/>
     <link href=""/>
-    <updated>2016-07-01T14:24:53+00:00</updated>
+    <updated>2016-07-01T14:45:47+00:00</updated>
     <id>http://codurance.com</id>
     <author>
         <name>Codurance</name>
@@ -108,9 +108,9 @@ To improve usability of your website and help your visitors find your content, y
     </entry>
     
     <entry>
-        <id>/2016/06/17/thinking-in-abstractions/</id>
+        <id>/software-craftsmanship/2016/06/17/thinking-in-abstractions/</id>
         <title>Thinking in Abstractions</title>
-        <link href="http://codurance.com/2016/06/17/thinking-in-abstractions/"/>
+        <link href="http://codurance.com/software-craftsmanship/2016/06/17/thinking-in-abstractions/"/>
         <published>2016-06-17T00:20:00+00:00</published>
         
         <summary type="html">&lt;p&gt;Recent issues of the &lt;a href=&quot;http://www.clojuregazette.com/archive.html&quot;&gt;Clojure Gazette&lt;/a&gt; have been discussing abstractions, and it&#39;s got me thinking.&lt;/p&gt;
@@ -120,9 +120,9 @@ To improve usability of your website and help your visitors find your content, y
     </entry>
     
     <entry>
-        <id>/2016/06/14/mastering-TDD/</id>
+        <id>/practices/extreme-programming/2016/06/14/mastering-TDD/</id>
         <title>Mastering TDD</title>
-        <link href="http://codurance.com/2016/06/14/mastering-TDD/"/>
+        <link href="http://codurance.com/practices/extreme-programming/2016/06/14/mastering-TDD/"/>
         <published>2016-06-14T12:10:00+00:00</published>
         
         <summary type="html">&lt;p&gt;Two weeks ago I went to &lt;a href=&quot;https://twitter.com/paulstringer&quot;&gt;Paul Stringer&#39;s&lt;/a&gt; course &lt;a href=&quot;https://skillsmatter.com/courses/545-paul-stringer-s-mastering-tdd-bdd-for-ios&quot;&gt;&quot;Mastering TDD/BDD in iOS&quot;&lt;/a&gt;. After the two days, I was exhausted... During the course, we looked at all the theory, completed some exercises. Paul gave us lots of links and books to read and, quite frankly, I was feeling overwhelmed.
@@ -145,9 +145,9 @@ I saw myself in front of the computer, with all those links to follow and read, 
     </entry>
     
     <entry>
-        <id>/community/2016/06/07/why-socrates-uk-is-not-just-a-conference-for-software-craftsmen/</id>
+        <id>/software-craftsmanship/2016/06/07/why-socrates-uk-is-not-just-a-conference-for-software-craftsmen/</id>
         <title>Why SoCraTes UK is not just a conference for Software Craftsmen.</title>
-        <link href="http://codurance.com/community/2016/06/07/why-socrates-uk-is-not-just-a-conference-for-software-craftsmen/"/>
+        <link href="http://codurance.com/software-craftsmanship/2016/06/07/why-socrates-uk-is-not-just-a-conference-for-software-craftsmen/"/>
         <published>2016-06-07T15:20:00+00:00</published>
         
         <summary type="html">&lt;p&gt;Last Friday, I attended the international &lt;a href=&quot;http://socratesuk.org/index.html&quot;&gt;Software Craftsmanship and Testing conference&lt;/a&gt; at the enchanting Wotton House, in Dorking. I was the only Designer among about 100 Developers.&lt;/p&gt;
