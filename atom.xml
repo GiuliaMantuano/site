@@ -3,7 +3,7 @@
     <title>Codurance</title>
     <link href="/atom.xml" rel="self"/>
     <link href=""/>
-    <updated>2016-06-30T15:27:18+00:00</updated>
+    <updated>2016-07-01T10:34:52+00:00</updated>
     <id>http://codurance.com</id>
     <author>
         <name>Codurance</name>
@@ -12,9 +12,9 @@
     <rights>Copyright (c) Codurance</rights>
     
     <entry>
-        <id>/2016/06/24/scaling-umbraco-on-windows-azure/</id>
+        <id>/technologies/2016/06/24/scaling-umbraco-on-windows-azure/</id>
         <title>Scaling an Umbraco Website On Windows Azure</title>
-        <link href="http://codurance.com/2016/06/24/scaling-umbraco-on-windows-azure/"/>
+        <link href="http://codurance.com/technologies/2016/06/24/scaling-umbraco-on-windows-azure/"/>
         <published>2016-06-24T16:20:00+00:00</published>
         
         <summary type="html">&lt;p&gt;This is the first post of a three parts series about how to scale an Umbraco website on Windows Azure platform.&lt;/p&gt;
@@ -133,9 +133,9 @@ I saw myself in front of the computer, with all those links to follow and read, 
     </entry>
     
     <entry>
-        <id>/2016/06/07/why-socrates-uk-is-not-just-a-conference-for-software-craftsmen/</id>
+        <id>/community/2016/06/07/why-socrates-uk-is-not-just-a-conference-for-software-craftsmen/</id>
         <title>Why SoCraTes UK is not just a conference for Software Craftsmen.</title>
-        <link href="http://codurance.com/2016/06/07/why-socrates-uk-is-not-just-a-conference-for-software-craftsmen/"/>
+        <link href="http://codurance.com/community/2016/06/07/why-socrates-uk-is-not-just-a-conference-for-software-craftsmen/"/>
         <published>2016-06-07T15:20:00+00:00</published>
         
         <summary type="html">&lt;p&gt;Last Friday, I attended the international &lt;a href=&quot;http://socratesuk.org/index.html&quot;&gt;Software Craftsmanship and Testing conference&lt;/a&gt; at the enchanting Wotton House, in Dorking. I was the only Designer among about 100 Developers.&lt;/p&gt;
@@ -217,9 +217,9 @@ I saw myself in front of the computer, with all those links to follow and read, 
     </entry>
     
     <entry>
-        <id>/2016/05/14/retrospective-park/</id>
+        <id>/practices/2016/05/14/retrospective-park/</id>
         <title>A Retrospective in the Park</title>
-        <link href="http://codurance.com/2016/05/14/retrospective-park/"/>
+        <link href="http://codurance.com/practices/2016/05/14/retrospective-park/"/>
         <published>2016-05-14T00:20:00+00:00</published>
         
         <summary type="html">&lt;p&gt;The other day, I facilitated a sprint retrospective in the park. The sun was shining, and we had all been working hard to complete our backlog, so it felt like a nice reward for everyone’s efforts. Holding a retrospective outdoors can also give it an energy and sense of enthusiasm that is harder to find in a small room.&lt;/p&gt;
@@ -229,9 +229,9 @@ I saw myself in front of the computer, with all those links to follow and read, 
     </entry>
     
     <entry>
-        <id>/2016/05/13/initiative-circles/</id>
+        <id>/practices/2016/05/13/initiative-circles/</id>
         <title>Initiative Circles</title>
-        <link href="http://codurance.com/2016/05/13/initiative-circles/"/>
+        <link href="http://codurance.com/practices/2016/05/13/initiative-circles/"/>
         <published>2016-05-13T00:20:00+00:00</published>
         
         <summary type="html">&lt;p&gt;We have been trying to encourage decentralised decision making at Codurance. To that effect, everyone within the company understands that they have the power to make any decision they need to make so long as they seek advise from the people that may be impacted. In order to help people make effective decisions, all company information is available to everyone in the company, including financials and salaries. This is all well and good, but in practice people do not simply go and start making informed strategic decisions just because they have the power to do so. For one, they are busy with their day jobs and simply do not have much time to look at the company holistically. Even if they have some wonderful ideas, they may not have the inclination or confidence to kick-off the initiative.&lt;/p&gt;
