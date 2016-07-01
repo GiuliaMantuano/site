@@ -3,7 +3,7 @@
     <title>Codurance</title>
     <link href="/atom.xml" rel="self"/>
     <link href=""/>
-    <updated>2016-07-01T10:36:12+00:00</updated>
+    <updated>2016-07-01T12:46:08+00:00</updated>
     <id>http://codurance.com</id>
     <author>
         <name>Codurance</name>
@@ -90,6 +90,18 @@ To improve usability of your website and help your visitors find your content, y
 
 
 &lt;p&gt;In this part we have been introduced to Umbraco, next we will see how easy it is to install and get up and running hosting our website on Windows Azure.&lt;/p&gt;
+
+</summary>
+        
+    </entry>
+    
+    <entry>
+        <id>/2016/06/22/Single-Responsibility-Principle/</id>
+        <title>Some Thoughts on the Single Responsibility Principle</title>
+        <link href="http://codurance.com/2016/06/22/Single-Responsibility-Principle/"/>
+        <published>2016-06-22T10:00:00+00:00</published>
+        
+        <summary type="html">&lt;p&gt;&lt;a href=&quot;http://bit.ly/1Da1b16&quot;&gt;SOLID&lt;/a&gt; (single responsibility, open-closed, Liskov substitution, interface segregation and dependency inversion) is a set of principles popularised by &lt;a href=&quot;https://en.wikipedia.org/wiki/Robert_Cecil_Martin&quot;&gt;‘Uncle’ Bob Martin&lt;/a&gt; that aim to guide developers in implementing good software design. The principles define how Object Oriented classes should relate to each other in order to create a codebase that is flexible and able to accommodate ongoing change.&lt;/p&gt;
 
 </summary>
         
@@ -247,18 +259,6 @@ I saw myself in front of the computer, with all those links to follow and read, 
         <published>2016-05-11T00:20:00+00:00</published>
         
         <summary type="html">&lt;p&gt;AWS Lambda is a compute service from Amazon. It makes deployment and provisioning very simple and fits very well with microservices based architecture. You can find out more about AWS Lambda &lt;a href=&quot;http://docs.aws.amazon.com/lambda/latest/dg/welcome.html&quot;&gt;here&lt;/a&gt;. Currently supported platforms are JVM, Node JS and Python.&lt;/p&gt;
-
-</summary>
-        
-    </entry>
-    
-    <entry>
-        <id>/2016/05/10/finite-state-machines-with-akka/</id>
-        <title>Finite state machines with Akka</title>
-        <link href="http://codurance.com/2016/05/10/finite-state-machines-with-akka/"/>
-        <published>2016-05-10T00:20:00+00:00</published>
-        
-        <summary type="html">&lt;p&gt;As you could remember from previous posts, &lt;a href=&quot;http://codurance.com/2016/04/28/async-systems-with-sync-clients/&quot;&gt;Part 1&lt;/a&gt; and   &lt;a href=&quot;http://codurance.com/2016/04/30/akka-basics/&quot;&gt;Part 2&lt;/a&gt;, we&#39;re implementing a solution that integrates a sync client with an async system. Today we&#39;ll see how to keep track of the async operations so we can provide a sync response to the client. Let&#39;s start with the architectural diagram.&lt;/p&gt;
 
 </summary>
         
