@@ -3,13 +3,307 @@
     <title>Codurance</title>
     <link href="/atom.xml" rel="self"/>
     <link href=""/>
-    <updated>2016-07-08T11:28:29+00:00</updated>
+    <updated>2016-07-11T13:06:29+00:00</updated>
     <id>http://codurance.com</id>
     <author>
         <name>Codurance</name>
         <email>hello@codurance.com</email>
     </author>
     <rights>Copyright (c) Codurance</rights>
+    
+    <entry>
+        <id>/technology/2016/07/03/scaling-umbraco-on-windows-azure-II/</id>
+        <title>Scaling Umbraco On Windows Azure Part II</title>
+        <link href="http://codurance.com/technology/2016/07/03/scaling-umbraco-on-windows-azure-II/"/>
+        <published>2016-07-03T13:02:00+00:00</published>
+        
+        <summary type="html">&lt;p&gt;In this second post of the three parts series about how to scale an Umbraco website on Windows Azure, we will install the CMS on our cloud platform.&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;A one-click process, maybe a few more clicks&lt;/h3&gt;
+
+
+
+
+&lt;p&gt;If you don&#39;t have one yet, create your &lt;a href=&quot;https://azure.microsoft.com/en-gb/pricing/free-trial/&quot;&gt;Windows Azure Free Trial subscription&lt;/a&gt;, then log into your portal.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/custom/blog/2016-06-20-umbraco-on-azure/03.png&quot;  alt=&quot;&quot; title=&quot;&quot; class=&quot;img img-center img-responsive style-screengrab&quot;&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;Create a new web site and install Umbraco.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/custom/blog/2016-06-20-umbraco-on-azure/04.png&quot;  alt=&quot;&quot; title=&quot;&quot; class=&quot;img img-center img-responsive style-screengrab&quot;&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/custom/blog/2016-06-20-umbraco-on-azure/05.png&quot;  alt=&quot;&quot; title=&quot;&quot; class=&quot;img img-center img-responsive style-screengrab&quot;&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;Make sure you chose the right pricing for the database! For the demo, the free price tier is enough.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/custom/blog/2016-06-20-umbraco-on-azure/06.png&quot;  alt=&quot;&quot; title=&quot;&quot; class=&quot;img img-center img-responsive style-screengrab&quot;&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;Configure the server.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/custom/blog/2016-06-20-umbraco-on-azure/07.png&quot;  alt=&quot;&quot; title=&quot;&quot; class=&quot;img img-center img-responsive style-screengrab&quot;&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;Add the  App settings.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/custom/blog/2016-06-20-umbraco-on-azure/08.png&quot;  alt=&quot;&quot; title=&quot;&quot; class=&quot;img img-center img-responsive style-screengrab&quot;&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;We&#39;re all set up. Click create, your app is being deployed.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/custom/blog/2016-06-20-umbraco-on-azure/09.png&quot;  alt=&quot;&quot; title=&quot;&quot; class=&quot;img img-center img-responsive style-screengrab&quot;&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;After few minutes the deployment is complete.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/custom/blog/2016-06-20-umbraco-on-azure/10.png&quot;  alt=&quot;&quot; title=&quot;&quot; class=&quot;img img-center img-responsive style-screengrab&quot;&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;You can find the link to your website on the all resources link on the left hand side menu.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/custom/blog/2016-06-20-umbraco-on-azure/11.png&quot;  alt=&quot;&quot; title=&quot;&quot; class=&quot;img img-center img-responsive style-screengrab&quot;&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;The default app page will first appear, whilst the umbraco install is launching..
+It should eventually prompt you for the login details you want to set up for the very first admin user of your umbraco installation.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/custom/blog/2016-06-20-umbraco-on-azure/12.png&quot;  alt=&quot;&quot; title=&quot;&quot; class=&quot;img img-center img-responsive style-screengrab&quot;&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;Now is the time for you to grab a coffee and check your &lt;a href=&quot;https://twitter.com/cats?lang=en-gb&quot;&gt;twitter feed&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/custom/blog/2016-06-20-umbraco-on-azure/13.png&quot;  alt=&quot;&quot; title=&quot;&quot; class=&quot;img img-center img-responsive style-screengrab&quot;&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;And here we are , ready to manage our website!
+After a successful installation, we are taken to the admin page of our Umbraco CMS.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/custom/blog/2016-06-20-umbraco-on-azure/14.png&quot;  alt=&quot;&quot; title=&quot;&quot; class=&quot;img img-center img-responsive style-screengrab&quot;&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;Ready to use layout template&lt;/h3&gt;
+
+
+
+
+&lt;p&gt;Since we installed the default template along with the Umbraco install, we have a starter kit, named Fanoe with layout template and site structure already built for us.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/custom/blog/2016-06-20-umbraco-on-azure/15.png&quot;  alt=&quot;&quot; title=&quot;&quot; class=&quot;img img-center img-responsive style-screengrab&quot;&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;We can study, in the admin of the website accessed via the &lt;code&gt;/umbraco path&lt;/code&gt; , the structure of our website.
+We have a Homepage that is our Higher level page, and it contains &lt;code&gt;Learn, Explore and Extend&lt;/code&gt; as children items.
+Each of those nodes are documents that are of a specific type and which are linked to a given template.
+In our case, the Home document, is an instance of the Home Document Type and will be rendered through the Home Template.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/custom/blog/2016-06-20-umbraco-on-azure/16.png&quot;  alt=&quot;&quot; title=&quot;&quot; class=&quot;img img-center img-responsive style-screengrab&quot;&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;The Home Document Type (DT) is defined in the settings menu of the Umbraco website.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/custom/blog/2016-06-20-umbraco-on-azure/17.png&quot;  alt=&quot;&quot; title=&quot;&quot; class=&quot;img img-center img-responsive style-screengrab&quot;&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;The Home DT has two tabs defined, in the site tab we have a Site Description property of type Textarea, a Site Title property of type Textstring.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;The Home Template, is accessible under the Template folder of the Umbraco Settings menu.
+It is nested under a master Template called &lt;code&gt;Master&lt;/code&gt; and it contains the code to display when the Home page is rendered.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/custom/blog/2016-06-20-umbraco-on-azure/18.png&quot;  alt=&quot;&quot; title=&quot;&quot; class=&quot;img img-center img-responsive style-screengrab&quot;&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;Here the home page references a child template to display content from Grid data types.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/custom/blog/2016-06-20-umbraco-on-azure/19.png&quot;  alt=&quot;&quot; title=&quot;&quot; class=&quot;img img-center img-responsive style-screengrab&quot;&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;Up and running in less than an hour : start adding pages&lt;/h3&gt;
+
+
+
+
+&lt;p&gt;We have installed our Umbrao website and we are now familiar enough with how it works to be able to start adding content.
+In the next part of this series, we will see how to scale our application on Windows Azure.&lt;/p&gt;
+
+</summary>
+        
+    </entry>
     
     <entry>
         <id>/technologies/2016/06/24/scaling-umbraco-on-windows-azure/</id>
@@ -247,18 +541,6 @@ I saw myself in front of the computer, with all those links to follow and read, 
         <published>2016-05-13T00:20:00+00:00</published>
         
         <summary type="html">&lt;p&gt;We have been trying to encourage decentralised decision making at Codurance. To that effect, everyone within the company understands that they have the power to make any decision they need to make so long as they seek advise from the people that may be impacted. In order to help people make effective decisions, all company information is available to everyone in the company, including financials and salaries. This is all well and good, but in practice people do not simply go and start making informed strategic decisions just because they have the power to do so. For one, they are busy with their day jobs and simply do not have much time to look at the company holistically. Even if they have some wonderful ideas, they may not have the inclination or confidence to kick-off the initiative.&lt;/p&gt;
-
-</summary>
-        
-    </entry>
-    
-    <entry>
-        <id>/2016/05/11/aws-lambdas/</id>
-        <title>AWS Lambda for Beginners</title>
-        <link href="http://codurance.com/2016/05/11/aws-lambdas/"/>
-        <published>2016-05-11T00:20:00+00:00</published>
-        
-        <summary type="html">&lt;p&gt;AWS Lambda is a compute service from Amazon. It makes deployment and provisioning very simple and fits very well with microservices based architecture. You can find out more about AWS Lambda &lt;a href=&quot;http://docs.aws.amazon.com/lambda/latest/dg/welcome.html&quot;&gt;here&lt;/a&gt;. Currently supported platforms are JVM, Node JS and Python.&lt;/p&gt;
 
 </summary>
         
