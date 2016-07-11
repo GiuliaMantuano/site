@@ -3,13 +3,25 @@
     <title>Codurance</title>
     <link href="/atom.xml" rel="self"/>
     <link href=""/>
-    <updated>2016-07-11T13:50:35+00:00</updated>
+    <updated>2016-07-11T13:58:59+00:00</updated>
     <id>http://codurance.com</id>
     <author>
         <name>Codurance</name>
         <email>hello@codurance.com</email>
     </author>
     <rights>Copyright (c) Codurance</rights>
+    
+    <entry>
+        <id>/2016/07/11/state-in-scalable-architectures/</id>
+        <title>State in scalable architectures</title>
+        <link href="http://codurance.com/2016/07/11/state-in-scalable-architectures/"/>
+        <published>2016-07-11T00:20:00+00:00</published>
+        
+        <summary type="html">&lt;p&gt;Handling state is one of the cornerstones of software development. Most of business value derived from software relies on state. Depending on the level of abstraction, state, and the approach to handle it, looks like a completely different problem. In this post we&#39;ll see what is common to all of them and how modern scalability needs have pushed towards innovative and refreshing approaches.&lt;/p&gt;
+
+</summary>
+        
+    </entry>
     
     <entry>
         <id>/craftsmanship/2016/07/04/the-rush-age/</id>
@@ -529,18 +541,6 @@ I saw myself in front of the computer, with all those links to follow and read, 
         <published>2016-05-16T00:01:00+00:00</published>
         
         <summary type="html">&lt;p&gt;In one of our evening apprenticeship meetings, a pair was doing the &lt;a href=&quot;http://codingdojo.org/cgi-bin/index.pl?KataBowling&quot;&gt;Bowling Kata&lt;/a&gt; in Java. After reviewing their code, I thought that it would be a good idea to do it myself.&lt;/p&gt;
-
-</summary>
-        
-    </entry>
-    
-    <entry>
-        <id>/practices/2016/05/14/retrospective-park/</id>
-        <title>A Retrospective in the Park</title>
-        <link href="http://codurance.com/practices/2016/05/14/retrospective-park/"/>
-        <published>2016-05-14T00:20:00+00:00</published>
-        
-        <summary type="html">&lt;p&gt;The other day, I facilitated a sprint retrospective in the park. The sun was shining, and we had all been working hard to complete our backlog, so it felt like a nice reward for everyone’s efforts. Holding a retrospective outdoors can also give it an energy and sense of enthusiasm that is harder to find in a small room.&lt;/p&gt;
 
 </summary>
         
