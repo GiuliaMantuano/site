@@ -3,7 +3,7 @@
     <title>Codurance</title>
     <link href="/atom.xml" rel="self"/>
     <link href=""/>
-    <updated>2016-07-11T13:58:59+00:00</updated>
+    <updated>2016-07-11T17:07:40+00:00</updated>
     <id>http://codurance.com</id>
     <author>
         <name>Codurance</name>
@@ -475,9 +475,9 @@ I saw myself in front of the computer, with all those links to follow and read, 
     </entry>
     
     <entry>
-        <id>/2016/05/31/unit-vs-integration-akka-testing/</id>
+        <id>/software-creation/2016/05/31/unit-vs-integration-akka-testing/</id>
         <title>Unit vs Integration Akka Testing</title>
-        <link href="http://codurance.com/2016/05/31/unit-vs-integration-akka-testing/"/>
+        <link href="http://codurance.com/software-creation/2016/05/31/unit-vs-integration-akka-testing/"/>
         <published>2016-05-31T00:20:00+00:00</published>
         
         <summary type="html">&lt;p&gt;This is the sixth post in the series about integrating sync clients with async systems (&lt;a href=&quot;http://codurance.com/2016/04/28/async-systems-with-sync-clients/&quot;&gt;1, &lt;/a&gt;&lt;a href=&quot;http://codurance.com/2016/04/30/akka-basics/&quot;&gt;2, &lt;/a&gt;&lt;a href=&quot;http://codurance.com/2016/05/10/finite-state-machines-with-akka/&quot;&gt;3, &lt;/a&gt;&lt;a href=&quot;http://codurance.com/2016/05/16/publish-subscribe-model-in-kafka/&quot;&gt;4, &lt;/a&gt;&lt;a href=&quot;http://codurance.com/2016/05/16/coordination-in-akka/&quot;&gt;5&lt;/a&gt;). Here we&#39;ll see how to test &lt;a href=&quot;http://doc.akka.io/docs/akka/current/scala/actors.html&quot;&gt;Akka actors&lt;/a&gt; with different testing styles.&lt;/p&gt;
