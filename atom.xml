@@ -3,13 +3,25 @@
     <title>Codurance</title>
     <link href="/atom.xml" rel="self"/>
     <link href=""/>
-    <updated>2016-07-26T13:38:59+00:00</updated>
+    <updated>2016-07-27T10:40:31+00:00</updated>
     <id>http://codurance.com</id>
     <author>
         <name>Codurance</name>
         <email>hello@codurance.com</email>
     </author>
     <rights>Copyright (c) Codurance</rights>
+    
+    <entry>
+        <id>/videos/2016/07/14/shape-your-infrastructure-with-terraform/</id>
+        <title>Shape your infrastructure with Terraform</title>
+        <link href="http://codurance.com/videos/2016/07/14/shape-your-infrastructure-with-terraform/"/>
+        <published>2016-07-14T10:59:00+00:00</published>
+        
+        <summary type="html">&lt;h2&gt;Shape your infrastructure with Terraform&lt;/h2&gt;
+
+</summary>
+        
+    </entry>
     
     <entry>
         <id>/2016/07/11/state-in-scalable-architectures/</id>
@@ -529,18 +541,6 @@ I saw myself in front of the computer, with all those links to follow and read, 
         <published>2016-05-16T00:20:00+00:00</published>
         
         <summary type="html">&lt;p&gt;This is the fourth post in the series about integrating sync clients with async systems (&lt;a href=&quot;http://codurance.com/2016/04/28/async-systems-with-sync-clients/&quot;&gt;1, &lt;/a&gt;&lt;a href=&quot;http://codurance.com/2016/04/30/akka-basics/&quot;&gt;2, &lt;/a&gt;&lt;a href=&quot;http://codurance.com/2016/05/10/finite-state-machines-with-akka/&quot;&gt;3&lt;/a&gt;). Here we&#39;ll try to understand how &lt;a href=&quot;http://kafka.apache.org/&quot;&gt;Kafka&lt;/a&gt; works in order to correctly leverage its publish-subscribe implementation.&lt;/p&gt;
-
-</summary>
-        
-    </entry>
-    
-    <entry>
-        <id>/2016/05/16/bowling-kata-in-clojure-fsharp-scala/</id>
-        <title>Bowling Kata in Clojure, F# and Scala</title>
-        <link href="http://codurance.com/2016/05/16/bowling-kata-in-clojure-fsharp-scala/"/>
-        <published>2016-05-16T00:01:00+00:00</published>
-        
-        <summary type="html">&lt;p&gt;In one of our evening apprenticeship meetings, a pair was doing the &lt;a href=&quot;http://codingdojo.org/cgi-bin/index.pl?KataBowling&quot;&gt;Bowling Kata&lt;/a&gt; in Java. After reviewing their code, I thought that it would be a good idea to do it myself.&lt;/p&gt;
 
 </summary>
         
