@@ -3,13 +3,25 @@
     <title>Codurance</title>
     <link href="/atom.xml" rel="self"/>
     <link href=""/>
-    <updated>2016-07-29T13:05:37+00:00</updated>
+    <updated>2016-07-29T16:58:28+00:00</updated>
     <id>http://codurance.com</id>
     <author>
         <name>Codurance</name>
         <email>hello@codurance.com</email>
     </author>
     <rights>Copyright (c) Codurance</rights>
+    
+    <entry>
+        <id>/software-creation/2016/07/25/thoughts-on-coupling-in-software-design/</id>
+        <title>Thoughts on Coupling in Software Design</title>
+        <link href="http://codurance.com/software-creation/2016/07/25/thoughts-on-coupling-in-software-design/"/>
+        <published>2016-07-25T10:00:00+00:00</published>
+        
+        <summary type="html">&lt;p&gt;Coupling is a software metric that describes how closely connected two routines or modules are. It is a measure of quality. The concept was introduced by Larry Constantine in the 1960s and was formulized in a 1974 article for the IBM Systems Journal, Structured Design, and in the 1979 &lt;a href=&quot;http://www.win.tue.nl/~wstomv/quotes/structured-design.html&quot;&gt;book&lt;/a&gt; by the same name.&lt;/p&gt;
+
+</summary>
+        
+    </entry>
     
     <entry>
         <id>/videos/2016/07/14/shape-your-infrastructure-with-terraform/</id>
@@ -529,18 +541,6 @@ I saw myself in front of the computer, with all those links to follow and read, 
         <published>2016-05-25T00:01:00+00:00</published>
         
         <summary type="html">&lt;p&gt;I recently implemented the &lt;a href=&quot;https://github.com/Gryff/bowling-kata&quot;&gt;bowling kata in Haskell&lt;/a&gt;. In the process, I found out how set up my environment to comfortably do Test Driven Development. Hopefully, others might find this post helpful to begin their journey with the language. I used the following components:&lt;/p&gt;
-
-</summary>
-        
-    </entry>
-    
-    <entry>
-        <id>/2016/05/16/publish-subscribe-model-in-kafka/</id>
-        <title>Publish-subscribe model in Kafka</title>
-        <link href="http://codurance.com/2016/05/16/publish-subscribe-model-in-kafka/"/>
-        <published>2016-05-16T00:20:00+00:00</published>
-        
-        <summary type="html">&lt;p&gt;This is the fourth post in the series about integrating sync clients with async systems (&lt;a href=&quot;http://codurance.com/2016/04/28/async-systems-with-sync-clients/&quot;&gt;1, &lt;/a&gt;&lt;a href=&quot;http://codurance.com/2016/04/30/akka-basics/&quot;&gt;2, &lt;/a&gt;&lt;a href=&quot;http://codurance.com/2016/05/10/finite-state-machines-with-akka/&quot;&gt;3&lt;/a&gt;). Here we&#39;ll try to understand how &lt;a href=&quot;http://kafka.apache.org/&quot;&gt;Kafka&lt;/a&gt; works in order to correctly leverage its publish-subscribe implementation.&lt;/p&gt;
 
 </summary>
         
