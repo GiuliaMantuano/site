@@ -3,13 +3,25 @@
     <title>Codurance</title>
     <link href="/atom.xml" rel="self"/>
     <link href=""/>
-    <updated>2016-08-01T07:52:57+00:00</updated>
+    <updated>2016-08-04T09:42:20+00:00</updated>
     <id>http://codurance.com</id>
     <author>
         <name>Codurance</name>
         <email>hello@codurance.com</email>
     </author>
     <rights>Copyright (c) Codurance</rights>
+    
+    <entry>
+        <id>/2016/08/02/what-does-RESTful-really-mean/</id>
+        <title>What does RESTful really mean</title>
+        <link href="http://codurance.com/2016/08/02/what-does-RESTful-really-mean/"/>
+        <published>2016-08-02T17:00:00+00:00</published>
+        
+        <summary type="html">&lt;p&gt;Last month I attended &lt;a href=&quot;https://skillsmatter.com/courses/541-fast-track-to-restful-to-microservices&quot;&gt;Fast Track to RESTful Microservices training&lt;/a&gt; at &lt;a href=&quot;https://skillsmatter.com&quot;&gt;Skillsmatter&lt;/a&gt;. During the course, we explored what REST APIs can offer to web applications in general and microservices communication in particular. Personally, the most important outcome of the course is a better understanding of what REST really means and what are its pros and cons.&lt;/p&gt;
+
+</summary>
+        
+    </entry>
     
     <entry>
         <id>/software-creation/2016/07/25/thoughts-on-coupling-in-software-design/</id>
@@ -529,18 +541,6 @@ I saw myself in front of the computer, with all those links to follow and read, 
         <published>2016-05-25T00:20:00+00:00</published>
         
         <summary type="html">&lt;p&gt;In a &lt;a href=&quot;/2016/05/11/aws-lambdas&quot;&gt;previous post&lt;/a&gt; I showed you how to create and deploy an AWS Lambda. We will continue that work and look at updating just the code for that lambda. We will also add a REST endpoint to the AWS Lambda using &lt;a href=&quot;https://aws.amazon.com/api-gateway&quot;&gt;AWS API Gateway&lt;/a&gt;.&lt;/p&gt;
-
-</summary>
-        
-    </entry>
-    
-    <entry>
-        <id>/2016/05/25/a-simple-TDD-environment-in-haskell/</id>
-        <title>A simple TDD environment in Haskell</title>
-        <link href="http://codurance.com/2016/05/25/a-simple-TDD-environment-in-haskell/"/>
-        <published>2016-05-25T00:01:00+00:00</published>
-        
-        <summary type="html">&lt;p&gt;I recently implemented the &lt;a href=&quot;https://github.com/Gryff/bowling-kata&quot;&gt;bowling kata in Haskell&lt;/a&gt;. In the process, I found out how set up my environment to comfortably do Test Driven Development. Hopefully, others might find this post helpful to begin their journey with the language. I used the following components:&lt;/p&gt;
 
 </summary>
         
