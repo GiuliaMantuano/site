@@ -3,7 +3,7 @@
     <title>Codurance</title>
     <link href="/atom.xml" rel="self"/>
     <link href=""/>
-    <updated>2016-08-04T09:42:20+00:00</updated>
+    <updated>2016-08-08T10:16:04+00:00</updated>
     <id>http://codurance.com</id>
     <author>
         <name>Codurance</name>
@@ -18,6 +18,18 @@
         <published>2016-08-02T17:00:00+00:00</published>
         
         <summary type="html">&lt;p&gt;Last month I attended &lt;a href=&quot;https://skillsmatter.com/courses/541-fast-track-to-restful-to-microservices&quot;&gt;Fast Track to RESTful Microservices training&lt;/a&gt; at &lt;a href=&quot;https://skillsmatter.com&quot;&gt;Skillsmatter&lt;/a&gt;. During the course, we explored what REST APIs can offer to web applications in general and microservices communication in particular. Personally, the most important outcome of the course is a better understanding of what REST really means and what are its pros and cons.&lt;/p&gt;
+
+</summary>
+        
+    </entry>
+    
+    <entry>
+        <id>/2016/08/02/testing-spark-streaming-unit-testing/</id>
+        <title>Testing Spark Streaming: Unit testing</title>
+        <link href="http://codurance.com/2016/08/02/testing-spark-streaming-unit-testing/"/>
+        <published>2016-08-02T00:20:00+00:00</published>
+        
+        <summary type="html">&lt;p&gt;There is enough evidence to prove the importance of automated testing. Projects in new fields often neglect automated testing, as the domain itself steals the attention of the developers. However, lack of testing implies &#39;laugh now, cry later&#39;. Some of the tools around Big Data space have been architected around testability or, at least, the community has taken care of it afterwards. We&#39;ll see how &lt;a href=&quot;http://spark.apache.org/&quot;&gt;Spark&lt;/a&gt;, and more specifically &lt;a href=&quot;http://spark.apache.org/streaming/&quot;&gt;Spark Streaming&lt;/a&gt;, performs in different aspects of automated testing.&lt;/p&gt;
 
 </summary>
         
@@ -529,18 +541,6 @@ I saw myself in front of the computer, with all those links to follow and read, 
         <published>2016-05-25T00:20:00+00:00</published>
         
         <summary type="html">&lt;p&gt;This is the fifth post in the series about integrating sync clients with async systems (&lt;a href=&quot;http://codurance.com/2016/04/28/async-systems-with-sync-clients/&quot;&gt;1, &lt;/a&gt;&lt;a href=&quot;http://codurance.com/2016/04/30/akka-basics/&quot;&gt;2, &lt;/a&gt;&lt;a href=&quot;http://codurance.com/2016/05/10/finite-state-machines-with-akka/&quot;&gt;3, &lt;/a&gt;&lt;a href=&quot;http://codurance.com/2016/05/16/publish-subscribe-model-in-kafka/&quot;&gt;4&lt;/a&gt;). Here we&#39;ll see how to manage the actor&#39;s lifecycle, so our service can use the available resources efficiently.&lt;/p&gt;
-
-</summary>
-        
-    </entry>
-    
-    <entry>
-        <id>/2016/05/25/aws-api-gateway/</id>
-        <title>AWS Lambda with API Gateway</title>
-        <link href="http://codurance.com/2016/05/25/aws-api-gateway/"/>
-        <published>2016-05-25T00:20:00+00:00</published>
-        
-        <summary type="html">&lt;p&gt;In a &lt;a href=&quot;/2016/05/11/aws-lambdas&quot;&gt;previous post&lt;/a&gt; I showed you how to create and deploy an AWS Lambda. We will continue that work and look at updating just the code for that lambda. We will also add a REST endpoint to the AWS Lambda using &lt;a href=&quot;https://aws.amazon.com/api-gateway&quot;&gt;AWS API Gateway&lt;/a&gt;.&lt;/p&gt;
 
 </summary>
         
