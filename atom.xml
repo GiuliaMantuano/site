@@ -3,13 +3,25 @@
     <title>Codurance</title>
     <link href="/atom.xml" rel="self"/>
     <link href=""/>
-    <updated>2016-08-08T15:54:32+00:00</updated>
+    <updated>2016-08-10T15:39:44+00:00</updated>
     <id>http://codurance.com</id>
     <author>
         <name>Codurance</name>
         <email>hello@codurance.com</email>
     </author>
     <rights>Copyright (c) Codurance</rights>
+    
+    <entry>
+        <id>/2016/08/03/testing-spark-streaming-integration-testing-with-docker-compose/</id>
+        <title>Testing Spark Streaming: Integration testing with Docker Compose</title>
+        <link href="http://codurance.com/2016/08/03/testing-spark-streaming-integration-testing-with-docker-compose/"/>
+        <published>2016-08-03T00:20:00+00:00</published>
+        
+        <summary type="html">&lt;p&gt;In the &lt;a href=&quot;http://codurance.com/2016/08/02/testing-spark-streaming-unit-testing/&quot;&gt;first post&lt;/a&gt; of this series, we saw how to unit test &lt;a href=&quot;http://spark.apache.org/streaming/&quot;&gt;Spark Streaming&lt;/a&gt; operations using &lt;a href=&quot;https://github.com/holdenk/spark-testing-base&quot;&gt;Spark Testing Base&lt;/a&gt;. Here we&#39;ll see how to do integration testing using &lt;a href=&quot;https://docs.docker.com/compose/&quot;&gt;Docker Compose&lt;/a&gt;.&lt;/p&gt;
+
+</summary>
+        
+    </entry>
     
     <entry>
         <id>/2016/08/02/what-does-RESTful-really-mean/</id>
@@ -682,18 +694,6 @@ I saw myself in front of the computer, with all those links to follow and read, 
         <published>2016-06-07T15:20:00+00:00</published>
         
         <summary type="html">&lt;p&gt;Last Friday, I attended the international &lt;a href=&quot;http://socratesuk.org/index.html&quot;&gt;Software Craftsmanship and Testing conference&lt;/a&gt; at the enchanting Wotton House, in Dorking. I was the only Designer among about 100 Developers.&lt;/p&gt;
-
-</summary>
-        
-    </entry>
-    
-    <entry>
-        <id>/software-creation/2016/05/31/unit-vs-integration-akka-testing/</id>
-        <title>Unit vs Integration Akka Testing</title>
-        <link href="http://codurance.com/software-creation/2016/05/31/unit-vs-integration-akka-testing/"/>
-        <published>2016-05-31T00:20:00+00:00</published>
-        
-        <summary type="html">&lt;p&gt;This is the sixth post in the series about integrating sync clients with async systems (&lt;a href=&quot;http://codurance.com/2016/04/28/async-systems-with-sync-clients/&quot;&gt;1, &lt;/a&gt;&lt;a href=&quot;http://codurance.com/2016/04/30/akka-basics/&quot;&gt;2, &lt;/a&gt;&lt;a href=&quot;http://codurance.com/2016/05/10/finite-state-machines-with-akka/&quot;&gt;3, &lt;/a&gt;&lt;a href=&quot;http://codurance.com/2016/05/16/publish-subscribe-model-in-kafka/&quot;&gt;4, &lt;/a&gt;&lt;a href=&quot;http://codurance.com/2016/05/16/coordination-in-akka/&quot;&gt;5&lt;/a&gt;). Here we&#39;ll see how to test &lt;a href=&quot;http://doc.akka.io/docs/akka/current/scala/actors.html&quot;&gt;Akka actors&lt;/a&gt; with different testing styles.&lt;/p&gt;
 
 </summary>
         
