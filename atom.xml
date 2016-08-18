@@ -3,13 +3,25 @@
     <title>Codurance</title>
     <link href="/atom.xml" rel="self"/>
     <link href=""/>
-    <updated>2016-08-17T17:10:41+00:00</updated>
+    <updated>2016-08-18T09:39:19+00:00</updated>
     <id>http://codurance.com</id>
     <author>
         <name>Codurance</name>
         <email>hello@codurance.com</email>
     </author>
     <rights>Copyright (c) Codurance</rights>
+    
+    <entry>
+        <id>/2016/08/14/three-pillars-of-continuous-delivery/</id>
+        <title>Three pillars of Continuous Delivery</title>
+        <link href="http://codurance.com/2016/08/14/three-pillars-of-continuous-delivery/"/>
+        <published>2016-08-14T00:00:00+00:00</published>
+        
+        <summary type="html">&lt;p&gt;Some time ago I was invited to take part in a online panel about continuous delivery. &lt;a href=&quot;http://electric-cloud.com/lp/continuous-discussions/&quot;&gt;Continuous Discussions&lt;/a&gt; is a series of one-hour long panel discussions between people from different backgrounds about various aspects of continuous delivery. The topic of my panel was &lt;a href=&quot;http://electric-cloud.com/blog/2016/07/continuous-discussions-c9d9-podcast-episode-46-deployment-automation-2-0/&quot;&gt;Deployment Automation 2.0&lt;/a&gt; where we spoke about patterns in the automation of deployments and possible future changes in this area.&lt;/p&gt;
+
+</summary>
+        
+    </entry>
     
     <entry>
         <id>/2016/08/03/testing-spark-streaming-integration-testing-with-docker-compose/</id>
@@ -682,18 +694,6 @@ I saw myself in front of the computer, with all those links to follow and read, 
         <published>2016-06-09T15:07:00+00:00</published>
         
         <summary type="html">&lt;p&gt;During the  &lt;a href=&quot;http://socratesuk.org/index.html&quot;&gt;Software Craftsmanship and Testing conference UK&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mashooq&quot;&gt;Mash&lt;/a&gt; run a session on &lt;a href=&quot;https://aws.amazon.com/lambda/details/&quot;&gt;AWS Lambda&lt;/a&gt;, with examples written in Java and python. Some other people also tried to do it in NodeJS. This session is &lt;a href=&quot;/2016/05/11/aws-lambdas&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-
-</summary>
-        
-    </entry>
-    
-    <entry>
-        <id>/software-craftsmanship/2016/06/07/why-socrates-uk-is-not-just-a-conference-for-software-craftsmen/</id>
-        <title>Why SoCraTes UK is not just a conference for Software Craftsmen.</title>
-        <link href="http://codurance.com/software-craftsmanship/2016/06/07/why-socrates-uk-is-not-just-a-conference-for-software-craftsmen/"/>
-        <published>2016-06-07T15:20:00+00:00</published>
-        
-        <summary type="html">&lt;p&gt;Last Friday, I attended the international &lt;a href=&quot;http://socratesuk.org/index.html&quot;&gt;Software Craftsmanship and Testing conference&lt;/a&gt; at the enchanting Wotton House, in Dorking. I was the only Designer among about 100 Developers.&lt;/p&gt;
 
 </summary>
         
